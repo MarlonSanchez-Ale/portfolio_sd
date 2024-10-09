@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #EFEFEF;
+}
+
+@font-face {
+  font-family: 'Nourd';
+  src: url('../src/assets/fonts/nourd_bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../src/assets/fonts/Rubik-Regular.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@layer components {
+  .title {
+      @apply font-nourd font-bold sm:text-2xl md:text-4xl
+  }
+
+  .title_contrast {
+      @apply font-nourd font-bold sm:text-2xl md:text-4xl
+  }
+
+  .subtitle {
+      @apply font-rubik text-gray-500 text-2xl
+  }
+
+  .description {
+      @apply font-rubik text-gray-500 text-lg
+  }
+
+}
