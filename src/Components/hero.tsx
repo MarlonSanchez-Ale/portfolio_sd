@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import logo from '../assets/images/logosdblanco.png';
+import logo from '../assets/Images/logosdblanco.png';
 import fondo from '../assets/Images/fondo-portafolio.jpg';
 
 export default function Hero() {

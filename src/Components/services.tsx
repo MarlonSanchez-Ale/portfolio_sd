@@ -29,7 +29,7 @@ export default function Services() {
               <h3 className="text-xl md:text-2xl font-semibold mb-2 font-juana ">{srv.title}</h3>
               <p className="text-gray-600 text-sm md:text-base mb-4 font-juana ">{srv.desc}</p>
               <a
-                href="https://wa.me/50585522987"
+                href="https://wa.me/message/5VKW5SJ77TD7L1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border border-gray-400 text-black font-juana font-semibold text-sm md:text-base px-6 py-2 rounded hover:bg-white hover:text-black transition"
