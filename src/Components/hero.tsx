@@ -23,7 +23,7 @@ export default function Hero() {
           md:left-6 md:translate-x-0
         "
       >
-        <img src={logo} alt="Sinfonía Digital" className="w-40 md:w-60 h-auto" />
+        <img src={logo} alt="Sinfonía Digital" loading='lazy' className="w-40 md:w-60 h-auto" />
       </div>
 
       {/* Contenido */}

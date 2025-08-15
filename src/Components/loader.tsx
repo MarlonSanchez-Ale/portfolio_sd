@@ -22,6 +22,7 @@ export default function Loader() {
                     src={logoSd}
                     alt="Parte 2 del logo"
                     style={{ width: '100%', height: '100%' }}
+                    loading='lazy'
                 />
             </motion.div>
         </div>

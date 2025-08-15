@@ -26,7 +26,7 @@ export default function PortfolioCarousel() {
           <SwiperSlide key={idx}>
             <div className="relative rounded-lg overflow-hidden shadow-lg">
               {/* Imagen ocupa todo el card */}
-              <img src={item.image} alt={item.title} className="w-full h-96 object-cover" />
+              <img src={item.image} alt={item.title} loading='lazy' className="w-full h-96 object-cover" />
 
               {/* Footer negro semi-transparente */}
               <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white flex items-center justify-between px-4 py-2">

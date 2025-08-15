@@ -30,6 +30,7 @@ export default function ReelsCarousel() {
                                             src={item.logo}
                                             alt={item.title + ' logo'}
                                             className="w-6 h-6 md:w-7 md:h-7 object-contain rounded-full flex-shrink-0"
+                                            loading='lazy'
                                         />
                                     )}
                                     <span className="font-juana font-semibold text-sm md:text-base lg:text-lg truncate">{item.title}</span>

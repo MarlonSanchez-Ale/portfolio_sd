@@ -21,6 +21,7 @@ export default function Services() {
                 src={srv.image}
                 alt={srv.title}
                 className="w-full h-full object-cover"
+                loading='lazy'
               />
             </div>
 
