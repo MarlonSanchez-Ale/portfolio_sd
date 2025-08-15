@@ -25,8 +25,7 @@ export default withMT({
       'gray-lightsd': '#d3dce6',
     },
     fontFamily: {
-      'nourd': ['Nourd', 'sans'],
-      'rubik': ['Rubik', 'sans']
+      'juana': ['Juana', 'sans-serif'],
     }
   },
   plugins: [],

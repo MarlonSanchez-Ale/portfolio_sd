@@ -2,39 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #EFEFEF;
-}
-
 @font-face {
-  font-family: 'Nourd';
-  src: url('../src/assets/fonts/nourd_bold.ttf');
-  font-weight: bold;
+  font-family: 'Juana';
+  src: url('./assets/fonts/Juana-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url('../src/assets/fonts/Rubik-Regular.ttf');
-  font-weight: bold;
+  font-family: 'Juana';
+  src: url('./assets/fonts/Juana-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Juana';
+  src: url('./assets/fonts/Juana-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 @layer components {
   .title {
-      @apply font-nourd font-bold sm:text-2xl md:text-4xl
-  }
-
-  .title_contrast {
-      @apply font-nourd font-bold sm:text-2xl md:text-4xl
+    @apply font-juana font-bold sm:text-4xl md:text-8xl italic ;
   }
 
   .subtitle {
-      @apply font-rubik text-gray-500 text-2xl
+    @apply font-juana font-light sm:text-xl md:text-4xl text-gray-200 italic ;
   }
 
   .description {
-      @apply font-rubik text-gray-500 text-lg
+    @apply font-juana font-normal text-gray-300 text-xl;
   }
-
 }

@@ -1,30 +1,23 @@
-
 import './App.css'
-import Loader from './Components/elements/loader'
-import { useEffect, useState } from 'react'
+// Importamos las secciones
+import Hero from './Components/hero'
+import PortfolioCarousel from './Components/portfoliocarousel'
+import VideoCarousel from './Components/videoCarousel'
+import Services from './Components/services'
+import Footer from './Components/footer'
+
 function App() {
-
-  const [Loading, setLoading] = useState(false)
-
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000);
-
-  }, [])
+  
 
   return (
-    <>
-      {Loading ? <Loader /> :
-        <div className='bg-white shadow-md rounded-md p-10'>
-          <h1 className="title">
-            Un equipo apasionado por el mundo <span className='text-yellowsd'>digital!</span>
-          </h1>
-        </div>}
-    </>
+    <div className="bg-white">
+      <Hero />
+      <PortfolioCarousel />
+      <VideoCarousel />
+      <Services />
+      <Footer />
+    </div>
   )
 }
 
 export default App
-
