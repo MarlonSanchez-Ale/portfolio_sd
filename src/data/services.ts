@@ -1,4 +1,3 @@
-import galeria from '../assets/Images/galeria.jpg';
 import servicio1 from '../assets/Images/servicios/26.jpg';
 import servicio2 from '../assets/Images/servicios/27.jpg';
 import servicio3 from '../assets/Images/servicios/28.jpg';

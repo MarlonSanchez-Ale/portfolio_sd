@@ -1,5 +1,3 @@
-import galeria from '../assets/Images/galeria.jpg';
-
 import daika1 from '../assets/Images/daikastore/daika1.jpg'
 import daika2 from '../assets/Images/daikastore/daika2.jpg'
 import daika3 from '../assets/Images/daikastore/3.jpg'
