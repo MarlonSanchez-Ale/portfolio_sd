@@ -20,7 +20,7 @@ export default function PortfolioCarousel({ items, tipo }: PortfolioCarouselProp
       spaceBetween={30}
       slidesPerView={1}
       autoplay={{
-        delay: 2500,
+        delay: 3500,
         disableOnInteraction: false,
       }}
       breakpoints={{
@@ -32,7 +32,7 @@ export default function PortfolioCarousel({ items, tipo }: PortfolioCarouselProp
         <SwiperSlide key={idx}>
           <div className="relative rounded-lg overflow-hidden shadow-lg">
             {/* Imagen ocupa todo el card */}
-            <img src={item.image} alt={item.title} loading='lazy' className="w-full h-[500px] object-cover" />
+            <img src={item.image} alt={item.title}  className="w-full h-[500px] object-cover" />
 
             {/* Footer negro semi-transparente */}
             <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white flex items-center justify-between px-4 py-2">
@@ -48,7 +48,6 @@ export default function PortfolioCarousel({ items, tipo }: PortfolioCarouselProp
                   src={item.logo || '/assets/images/default-logo.png'}
                   alt={`${item.title} logo`}
                   className="w-10 h-10 rounded-full object-cover"
-                  loading='lazy'
                 />
               </div>
             </div>
