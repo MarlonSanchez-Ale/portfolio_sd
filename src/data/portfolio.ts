@@ -48,7 +48,6 @@ import boda29 from '../assets/Images/bodaharryston/29.jpg'
 /* Flower Online Anto imagenes - VERIFICAR NOMBRES DE ARCHIVO */
 import floweranto1 from '../assets/Images/floweranto/1.jpg'
 import floweranto2 from '../assets/Images/floweranto/5.jpg'
-import floweranto3 from '../assets/Images/floweranto/3.jpg'
 import floweranto4 from '../assets/Images/floweranto/9.jpg'
 import floweranto5 from '../assets/Images/floweranto/12.jpg'
 import floweranto6 from '../assets/Images/floweranto/14.jpg'
