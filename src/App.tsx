@@ -1,7 +1,7 @@
 import './App.css'
 // Importamos las secciones
 import Hero from './Components/hero'
-import PortfolioCarousel from './Components/portfoliocarousel'
+import PortfolioLayout from './layout/portfolioLayout'
 import VideoCarousel from './Components/videoCarousel'
 import Services from './Components/services'
 import Footer from './Components/footer'
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="bg-white">
       <Hero />
-      <PortfolioCarousel />
+      <PortfolioLayout />
       <VideoCarousel />
       <Services />
       <Footer />
