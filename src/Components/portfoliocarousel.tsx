@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 
 type PortfolioCarouselProps = {
   items: any[];
@@ -15,10 +15,14 @@ export default function PortfolioCarousel({ items, tipo }: PortfolioCarouselProp
 
   return (
     <Swiper
-      modules={[Navigation]}
+      modules={[Navigation, Autoplay]}
       navigation
       spaceBetween={30}
       slidesPerView={1}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
       breakpoints={{
         768: { slidesPerView: 2 },
         1024: { slidesPerView: 3 }
