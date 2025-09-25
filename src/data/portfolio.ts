@@ -28,6 +28,19 @@ import fireplace12 from '../assets/Images/fireplace/2.jpg'
 import fireplace14 from '../assets/Images/fireplace/3.jpg'
 import fireplace15 from '../assets/Images/fireplace/4.jpg'
 import fireplace16 from '../assets/Images/fireplace/7.jpg'
+import fireplace17 from '../assets/Images/fireplace/16.jpg'
+import fireplace18 from '../assets/Images/fireplace/17.jpg'
+import fireplace19 from '../assets/Images/fireplace/18.jpg'
+import fireplace59 from '../assets/Images/fireplace/59.jpg'
+import fireplace60 from '../assets/Images/fireplace/60.jpg'
+import fireplace62 from '../assets/Images/fireplace/62.jpg'
+import fireplace63 from '../assets/Images/fireplace/63.jpg'
+import fireplace64 from '../assets/Images/fireplace/64.jpg'
+import fireplace65 from '../assets/Images/fireplace/65.jpg'
+import fireplace73 from '../assets/Images/fireplace/73.jpg'
+import fireplace79 from '../assets/Images/fireplace/79.jpg'
+import fireplace80 from '../assets/Images/fireplace/80.jpg'
+
 
 /* Kensof imagenes */
 import kensof1 from '../assets/Images/kensof/1.jpg'
@@ -71,32 +84,44 @@ export interface PortfolioItem {
 }
 
 export const portfolio: PortfolioItem[] = [
-  { title: 'Daykas Store', date: '30/06/25', image: daika1, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika2, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika3, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika4, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika5, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika6, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika7, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika8, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika10, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika11, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Daykas Store', date: '30/06/25', image: daika12, description: 'Sesión de fotos para negocio', logo: daykalogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace1, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace2, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace3, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace4, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace5, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace6, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace7, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace8, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace9, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace10, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace11, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace12, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace14, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace15, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace16, description: 'Sesión de fotos para negocio', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace17, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace18, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace19, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace11, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace12, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace14, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace15, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace16, description: 'Creación de contenido', logo: fireplacelogo, tipo: 'portafolio1' },
+   { title: 'Fireplace', date: '30/06/25', image: fireplace59, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace60, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace62, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace63, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace64, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace65, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace73, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace79, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace80, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace1, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace2, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace3, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace4, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace5, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace6, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace7, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace8, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace9, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Fireplace', date: '30/06/25', image: fireplace10, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika1, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika2, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika3, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika4, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika5, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika6, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika7, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika8, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika10, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika11, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
+  { title: 'Daykas Store', date: '30/06/25', image: daika12, description: 'Photoshoot ', logo: daykalogo, tipo: 'portafolio1' },
   { title: 'Team Bride', date: '15/09/25', image: despedida2, description: 'Sesiones de fotos para días especiales', logo: despedida2, tipo: 'portafolio2' },
   { title: 'Team Bride', date: '15/09/25', image: despedida3, description: 'Sesiones de fotos para días especiales', logo: despedida2, tipo: 'portafolio2' },
   { title: 'Team Bride', date: '15/09/25', image: despedida1, description: 'Sesiones de fotos para días especiales', logo: despedida2, tipo: 'portafolio2' },
