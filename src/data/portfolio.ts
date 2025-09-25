@@ -37,9 +37,7 @@ import fireplace62 from '../assets/Images/fireplace/62.jpg'
 import fireplace63 from '../assets/Images/fireplace/63.jpg'
 import fireplace64 from '../assets/Images/fireplace/64.jpg'
 import fireplace65 from '../assets/Images/fireplace/65.jpg'
-import fireplace73 from '../assets/Images/fireplace/73.jpg'
 import fireplace79 from '../assets/Images/fireplace/79.jpg'
-import fireplace80 from '../assets/Images/fireplace/80.jpg'
 
 
 /* Kensof imagenes */
@@ -98,9 +96,7 @@ export const portfolio: PortfolioItem[] = [
   { title: 'Fireplace', date: '30/06/25', image: fireplace63, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace64, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace65, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace73, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace79, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
-  { title: 'Fireplace', date: '30/06/25', image: fireplace80, description: 'Photoshoot', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace1, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace2, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
   { title: 'Fireplace', date: '30/06/25', image: fireplace3, description: 'Photoshoot ', logo: fireplacelogo, tipo: 'portafolio1' },
